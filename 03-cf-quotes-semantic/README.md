@@ -2,6 +2,8 @@
 
 A FastAPI application demonstrating AI embedding services and vector similarity search. This stage uses PostgreSQL with pgvector for semantic search, requiring both embedding and database service bindings.
 
+**[→ FAQ & resources](../FAQ.md)**
+
 ## Overview
 
 **Purpose**: Learn AI services and vector similarity search

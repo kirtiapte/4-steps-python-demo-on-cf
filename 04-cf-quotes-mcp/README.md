@@ -2,6 +2,8 @@
 
 A FastMCP standalone server demonstrating Model Context Protocol (MCP) integration. This stage transforms the quote functionality into an MCP server with HTTP/SSE transport, exposing tools via the MCP protocol.
 
+**[→ FAQ & resources](../FAQ.md)**
+
 ## Overview
 
 **Purpose**: Learn MCP protocol and FastMCP framework

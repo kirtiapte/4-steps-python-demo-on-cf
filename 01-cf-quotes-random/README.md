@@ -2,6 +2,8 @@
 
 A simple FastAPI application demonstrating basic Cloud Foundry deployment concepts. This stage uses in-memory data with no database or service bindings required.
 
+**[→ FAQ & resources](../FAQ.md)**
+
 ## Overview
 
 **Purpose**: Learn Cloud Foundry fundamentals

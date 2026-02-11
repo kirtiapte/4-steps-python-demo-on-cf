@@ -2,6 +2,8 @@
 
 A FastAPI application demonstrating Cloud Foundry service marketplace and binding concepts. This stage uses PostgreSQL database for quote storage, requiring service binding.
 
+**[→ FAQ & resources](../FAQ.md)**
+
 ## Overview
 
 **Purpose**: Learn Cloud Foundry service marketplace and binding
