@@ -27,8 +27,8 @@ applications:
       # Start command - runs the FastAPI server with uvicorn
     command: uv run uvicorn app:app --host 0.0.0.0 --port $PORT
       # Optional: Override service names if different from defaults
-    # env:  
-      # EMBEDDING_SERVICE_NAME: "tanzu-nomic-embed-text"
+    env:  
+      EMBEDDING_SERVICE_NAME: "bge-small-en-v1_5"
       # VECTOR_DB_SERVICE_NAME: "vector-db"
       # DEBUG: "true" # Enable verbose debug logging for buildpack
     # Both services must exist before deployment (create via cf create-service)
