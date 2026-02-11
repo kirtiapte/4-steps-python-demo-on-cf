@@ -43,6 +43,8 @@ Short explanations and links to where each concept is described in the docs:
 
   **The twelve factors (high level):** (I) One codebase, many deploys · (II) Explicit, isolated dependencies · (III) Config in the environment · (IV) Backing services as attached resources · (V) Strict build, release, run separation · (VI) Stateless processes · (VII) Port binding to export the app · (VIII) Concurrency via the process model · (IX) Fast startup, graceful shutdown · (X) Dev/prod parity · (XI) Logs as event streams · (XII) Admin tasks as one-off processes.
 
+  **Videos:** [Twelve-Factor App overview](https://www.youtube.com/watch?v=QOz1UOf6MdU) · [Twelve-Factor App (video)](https://www.youtube.com/watch?v=3ziP2wIbNXo)
+
 ---
 
 ## Resources
