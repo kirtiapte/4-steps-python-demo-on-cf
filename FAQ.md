@@ -50,7 +50,6 @@ Short explanations and links to where each concept is described in the docs:
 ## Resources
 
 ### Tanzu Postgres (Postgres tile)
-- [Create a service gateway instance](https://techdocs.broadcom.com/us/en/vmware-tanzu/platform/tanzu-postgres-tanzu-platform/10-2/postgres-tp/create-service-gateway-instance.html) — connect to Postgres from off-platform (e.g. local dev, CI)
 - [Tanzu for Postgres on Tanzu Platform](https://techdocs.broadcom.com/us/en/vmware-tanzu/platform/tanzu-postgres-tanzu-platform/1-2/postgres-tp/install.html) — tile install and configuration
 
 ### Tanzu AI Services
