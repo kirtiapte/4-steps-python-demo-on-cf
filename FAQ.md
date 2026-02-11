@@ -39,6 +39,10 @@ Short explanations and links to where each concept is described in the docs:
 
 - **What is the marketplace?** — The set of services (e.g. Postgres, AI embedding) you can create and bind to apps. You use `cf marketplace`, `cf create-service`, and `cf bind-service`. [Adding services from the marketplace](https://techdocs.broadcom.com/us/en/vmware-tanzu/platform/tanzu-platform-for-cloud-foundry/10-0/tpcf/adding-services-marketplace.html) (Apps Manager); CLI flow is in the deploy and binding docs above.
 
+- **What is a 12-factor app?** — A methodology for building software-as-a-service apps that use declarative setup, stay portable, treat backing services as attached resources, and scale on cloud platforms with minimal divergence between dev and production. TAS and Cloud Foundry are designed to run 12-factor-style apps. [The Twelve-Factor App](https://12factor.net/)
+
+  **The twelve factors (high level):** (I) One codebase, many deploys · (II) Explicit, isolated dependencies · (III) Config in the environment · (IV) Backing services as attached resources · (V) Strict build, release, run separation · (VI) Stateless processes · (VII) Port binding to export the app · (VIII) Concurrency via the process model · (IX) Fast startup, graceful shutdown · (X) Dev/prod parity · (XI) Logs as event streams · (XII) Admin tasks as one-off processes.
+
 ---
 
 ## Resources
