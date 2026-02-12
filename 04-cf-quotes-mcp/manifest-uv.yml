@@ -33,12 +33,12 @@ applications:
     buildpack: python_buildpack
       # Start command - runs the FastAPI server with uvicorn
     command: uv run python app.py
-    # env:  
+    env:  
       # Optional: Override service names if different from defaults
-      # EMBEDDING_SERVICE_NAME: "tanzu-nomic-embed-text"
+      EMBEDDING_SERVICE_NAME: "bge-small-en-v1_5"
       # VECTOR_DB_SERVICE_NAME: "vector-db"
       # DEBUG: "true" # Enable verbose debug logging for buildpack
     # Both services must exist before deployment (create via cf create-service)
     services:
-      - tanzu-nomic-embed-text      # default embedding service for the app  
+      - bge-small-en-v1_5      # default embedding service for the app  
       - vector-db               # PostgreSQL with pgvector
